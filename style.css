@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(233, 199, 135);
+    font-family: ;
+    font-size: ;
+}
+
+h1,h2,h3 {
+    font-size: ;
+}
+
+h1 {
+    font-family: ;
+    font-size: 
+}
+
+h2 {
+    font-family: ;
+    font-size: ;
+}
+
+header {
+    color: orange;
+    border-radius: 5px;
+    border: 4px;
+}
+
+nav {
+    padding: 4px;
+    font-style: oblique;
+}
+
+nav > a {
+
+}
+
+nav:hover {
+    color: red;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
