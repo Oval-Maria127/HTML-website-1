@@ -5,17 +5,17 @@ body {
 }
 
 h1,h2,h3 {
-    font-size: ;
+    font-size: large;
 }
 
 h1 {
-    font-family: ;
-    font-size: 
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: large;
 }
 
 h2 {
-    font-family: ;
-    font-size: ;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: large;
 }
 
 header {
@@ -38,15 +38,38 @@ nav {
     padding: 4px;
     font-style: oblique;
 }
-
+/*Adds underline, margin spacing and color to the nav bar  */
 nav > a {
     margin: 3px;
     text-decoration: none;
     color: paleturquoise;
 }
-
+/*Adds a hover effect yo the Navigation bar, turning them to uppercase when hovered over.
+Needs refining so that a single element becomes uppercased */
 nav:hover {
     color: red;
     text-decoration: underline;
     text-transform: uppercase;
+    
 }
+/*Centers the the list of different scented candles. 
+would be nice to add a colored box around them and a 
+small candle picture collage*/
+.large-candles {
+    text-align: center;
+}
+
+.medium-candles {
+    text-align: center;
+}
+
+.small-candles {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+    text-decoration: underline;
+    font-size: x-large;
+}
+/*Need to figure out how to center the opening and closing time text. */
